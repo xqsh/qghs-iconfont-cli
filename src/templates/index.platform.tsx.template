@@ -12,13 +12,14 @@ interface Props {
   color?: string | string[];
   style?: React.CSSProperties;
   className?:string;
+  onClick?:()=>void;
 }
 
 const IconFont: FunctionComponent<Props> = (props) => {
-  const { name, size, color, style ,className} = props;
+  const { name, size, color, style ,className,onClick} = props;
 
   // @ts-ignore
-  return <iconfont name={name} size={#rpx-1:parseFloat(Taro.pxTransform(size)):##rpx-0:size:#} color={color} style={style} className={className} />;
+  return <iconfont name={name} size={#rpx-1:parseFloat(Taro.pxTransform(size)):##rpx-0:size:#} color={color} style={style} className={className} onClick={()=>onClick&&onClick()}/>;
 };
 
 IconFont.defaultProps = {
