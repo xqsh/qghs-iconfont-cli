@@ -6,6 +6,7 @@ interface Props {
   size?: number;
   color?: string | string[];
   style?: React.CSSProperties;
+  className?:string;
 }
 
 declare const IconFont: FunctionComponent<Props>;

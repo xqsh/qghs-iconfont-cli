@@ -10,6 +10,7 @@ export interface IconProps {
   size?: number;
   color?: string | string[];
   style?: React.CSSProperties;
+  className?:string;
 }
 
 const IconFont: FunctionComponent<IconProps> = () => {

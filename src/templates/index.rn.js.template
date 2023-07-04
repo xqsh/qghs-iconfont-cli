@@ -5,9 +5,9 @@ import React from 'react';
 import Icon from './rn';
 
 const IconFont = (props) => {
-  const { name, size, color, style } = props;
+  const { name, size, color, style ,className} = props;
 
-  return <Icon name={name} size={#rpx-1:parseFloat(Taro.pxTransform(size)):##rpx-0:size:#} color={color} style={style} />;
+  return <Icon name={name} size={#rpx-1:parseFloat(Taro.pxTransform(size)):##rpx-0:size:#} color={color} style={style} className={className} />;
 };
 
 IconFont.defaultProps = {
