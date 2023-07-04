@@ -1,14 +1,14 @@
 {
-  "name": "taro-iconfont-cli",
-  "version": "1.0.3",
+  "name": "qghs-iconfont-cli",
+  "version": "1.0.4",
   "main": "index.js",
-  "repository": "https://github.com/xqsh/taro-iconfont-cli.git",
+  "repository": "https://github.com/xqsh/qghs-iconfont-cli.git",
   "author": "qghs",
   "license": "MIT",
   "bin": {
-    "iconfont": "./src/commands/help.ts",
-    "iconfont-init": "./src/commands/createJson.ts",
-    "iconfont-taro": "./src/commands/index.ts"
+    "iconfont": "./commands/help.js",
+    "iconfont-init": "./commands/createJson.js",
+    "iconfont-taro": "./commands/index.js"
   },
   "peerDependencies": {
     "@tarojs/taro": "^3.0.8"

@@ -1,4 +1,4 @@
-# taro-iconfont-cli
+# qghs-iconfont-cli
 在Taro框架中使用iconfont图标，不依赖字体，支持多色彩。
 
 # 支持平台
@@ -23,15 +23,12 @@
 
 # Step 1
 安装插件
-
-**如果您使用Taro2.x，请安装 `taro-iconfont-cli@2.1.0`，并阅读旧版的[README.md](https://github.com/iconfont-cli/taro-iconfont-cli/blob/v2.1.0/README.md)**
-
 ```bash
 # Yarn
-yarn add taro-iconfont-cli --dev
+yarn add qghs-iconfont-cli --dev
 
 # Npm
-npm install taro-iconfont-cli --save-dev
+npm install qghs-iconfont-cli --save-dev
 ```
 
 
@@ -164,7 +161,3 @@ export default App;
 # 修改 symbol_url 配置后执行：
 npx iconfont-taro
 ```
-
---------
-
-欢迎使用，并给我一些反馈和建议，让这个库做的更好
