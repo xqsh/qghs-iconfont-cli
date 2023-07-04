@@ -6,9 +6,9 @@
   "author": "qghs",
   "license": "MIT",
   "bin": {
-    "iconfont": "./commands/help.js",
-    "iconfont-init": "./commands/createJson.js",
-    "iconfont-taro": "./commands/index.js"
+    "iconfont": "./src/commands/help.ts",
+    "iconfont-init": "./src/commands/createJson.ts",
+    "iconfont-taro": "./src/commands/index.ts"
   },
   "peerDependencies": {
     "@tarojs/taro": "^3.0.8"
