@@ -1,9 +1,9 @@
 {
   "name": "taro-iconfont-cli",
-  "version": "3.3.0",
+  "version": "1.0.1",
   "main": "index.js",
-  "repository": "git@github.com:iconfont-cli/taro-iconfont-cli.git",
-  "author": "范文华 <531362022@qq.com>",
+  "repository": "git@github.com:xqsh/taro-iconfont-cli.git",
+  "author": "qghs",
   "license": "MIT",
   "bin": {
     "iconfont": "./commands/help.js",
