@@ -1,6 +1,6 @@
 /* tslint:disable */
 /* eslint-disable */
-
+/*@ts-ignore*/
 import React, { FunctionComponent } from 'react';
 
 export type IconNames = '#names#';
